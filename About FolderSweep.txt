@@ -1,0 +1,22 @@
+FolderSweeper 1.0
+
+This project implements a fast and easy way of sweeping over a folder, optionally looking at all subfolders and/or file contents.
+
+The FolderSweeper class can probably be lifted as-is from this project and used in your project; in fact, it's based on production code for at least one shipping application. It has, however, been modified to be more generally applicable.
+
+We've tried to explain what is going inside, and why it's done that way. Some other peripheral things are also explained as we feel that this will also be useful to less-experienced Cocoa programmers.
+
+Eventually this may be merged into a private project for a fuller-featured alternative to NSFileManager/NSWorkspace, meaning that there'll be a class representing a generic file system object. Stay tuned.
+
+
+
+Bug reports and suggestions are welcome. Check for updates at:
+	http://www.brockerhoff.net/src
+You can also check out the current version over SVN at:
+	http://svn.cocoasourcecode.com/FolderSweep
+
+---------------
+Copyright (c)2008 by Rainer Brockerhoff <rainer@brockerhoff.net>. Original request, revision and advice by Matt Gemmell <matt.gemmell@gmail.com>.
+This source code is licensed under the MIT license, approved by the Open Source Initiative.
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. A reference in the "About box" or somewhere else in the documentation would be sufficient.
